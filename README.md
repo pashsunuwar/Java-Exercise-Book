@@ -1,6 +1,6 @@
-##### Java-Exercise-Book
+# Java-Exercise-Book
 
-Exercise 1 – HelloWorld
+### Exercise 1 – HelloWorld
 
 Exercise 2 – Calculator
 
