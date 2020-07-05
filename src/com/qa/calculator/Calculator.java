@@ -3,7 +3,6 @@ import java.util.*;
 
 public class Calculator {
 	
-
 	public static void main(String[] args) {
 	
 	int firstnumber;
@@ -15,11 +14,12 @@ public class Calculator {
 	System.out.println("Enter your first number: ");
 	firstnumber = myCalc.nextInt();
 	
+	System.out.println("Choose Arithmetic Operator from '+ - * /': ");
+	operator = myCalc.next();
+	
 	System.out.println("Enter your second number: ");
 	secondnumber = myCalc.nextInt();
 	
-	System.out.println("Choose Arithmetic Operator from '+ - * /': ");
-	operator = myCalc.next();
 	
 	switch (operator) {
 	case "+" :
