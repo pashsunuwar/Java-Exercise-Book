@@ -9,7 +9,7 @@ public class Calculator {
 	int secondnumber;
 	String operator;
 	
-	Scanner myCalc = new Scanner(System.in);
+
 	
 	System.out.println("Enter your first number: ");
 	firstnumber = myCalc.nextInt();
@@ -37,6 +37,21 @@ public class Calculator {
 	default:
 		System.out.println("Please use a valid operator. ");
 		break;
+		
+	switch(operator)
+		{
+		case "+" :
+			System.out.println("Adding the two operands equal to " + (firstnumber + secondnumber));
+			break;	
+		case "-" :
+			System.out.println("Subtracting the two operands equal to " + (firstnumber - secondnumber));
+			break;
+		case "*" :
+			System.out.println("Multiplying both operands equal to " + (firstnumber * secondnumber));
+			break;
+		case "/" :
+			System.out.println("Divinding both operands equal to " + (firstnumber / secondnumber));
+			break;
 	}
 	}
 	
