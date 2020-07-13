@@ -1,8 +1,7 @@
 package com.qa.calculator;
-import java.util.*;
 
 public class Calculator {
-	
+
 	public static void main(String[] args) {
 	
 	int firstnumber;
